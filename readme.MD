@@ -22,4 +22,4 @@ Also display the number of prime numbers which have the sum of digits an even nu
 7) Giving the the vector ucl[1,2,3,4,5,6,7,13] meaning the times a team wins the UCL trophy
 generate aRandom -> [0,7] ask user "How many teams win the UCL trophy ucl[aRandom] times"
 (the matching values are [10,4,2,1,2,1,1,1] according to https://en.wikipedia.org/wiki/List_of_European_Cup_and_UEFA_Champions_League_finals)
-and the logic similar with the one from last year.
+If user give a number bigger than the correct answer or smaller show an appropriate message. Give the user the chance to enter the number 2 times.   
