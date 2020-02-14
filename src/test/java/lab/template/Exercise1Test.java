@@ -2,20 +2,15 @@ package lab.template;
 
 import org.junit.Test;
 
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 public class Exercise1Test {
 
     @Test
-    public void testGetAnIntFromKeyboard() {
-        int result = Exercise1.getAnIntFromKeyboard();
-        assertTrue(result >= 2 && result <= 10);
-    }
-
-    @Test
-    public void testGenerateRandomValues() {
-        int[] result = Exercise1.generateRandomValues();
-        assertTrue(result.length >= 2 && result.length <= 10);
+    public void computeTheNumbersAndTheArithmeticalMean() {
+        int[] inputVector = new int[]{3,4,5};
+        assertEquals(4, Exercise1.computeTheNumbersAndTheArithmeticalMean(inputVector));
     }
 
 }
