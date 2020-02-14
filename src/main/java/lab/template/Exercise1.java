@@ -2,22 +2,18 @@ package lab.template;
 
 public class Exercise1 {
 
-    protected static int getAnIntFromKeyboard() {
-        return 0;
+    private static int[] getRandomNumbers() {
+        throw new UnsupportedOperationException();
     }
 
-
-    protected static int[] generateRandomValues() {
-        int keyboardInt = getAnIntFromKeyboard();
-        return null;
-    }
-
-    protected static void displayTheNumbersAndTheArithmeticalMean(int[] randomNumbers) {
-
+    protected static int computeTheNumbersAndTheArithmeticalMean(int[] randomNumbers) {
+        throw new UnsupportedOperationException();
     }
 
     public static void main(String[] args) {
-        int[] randomNumbers = generateRandomValues();
-        displayTheNumbersAndTheArithmeticalMean(randomNumbers);
+        int[] randomNumbers = getRandomNumbers();
+        System.out.println("Mean number is: "+computeTheNumbersAndTheArithmeticalMean(randomNumbers));
     }
+
+
 }
