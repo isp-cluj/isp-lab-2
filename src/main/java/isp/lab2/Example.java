@@ -1,4 +1,4 @@
-package lab.template;
+package isp.lab2;
 
 
 import java.util.logging.Logger;
