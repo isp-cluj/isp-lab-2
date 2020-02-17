@@ -23,7 +23,7 @@ Also display the number of prime numbers which have the sum of digits an even nu
 	sort the vector using bubbleSort/quickSort/mergeSort/anySortMethodButNotOneAlreadyImplemented
 	display the sorted vector
 
-6) Generate a vector which multiply the precedent 2 values from the vector. First to elements of the vector are always 1 and 2. Generate first n elements(n >= 8)
+6) Generate a vector which multiply the precedent 2 values from the vector. First two elements of the vector are always 1 and 2. Generate first n elements(n >= 8)
 <br> EX: 1, 2, 2, 4, 8, 32, 256, 8192, ...
 	<br>a) non-recursively 
 	<br>b) recursively
