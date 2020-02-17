@@ -8,7 +8,7 @@ public class Exercise1Test {
 
     @Test
     public void computeTheNumbersAndTheArithmeticalMean() {
-        int[] inputVector = new int[]{3,4,5};
+        int[] inputVector = new int[]{3, 4, 5};
         assertEquals(4, Exercise1.computeTheNumbersAndTheArithmeticalMean(inputVector));
     }
 

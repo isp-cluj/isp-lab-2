@@ -12,7 +12,7 @@ public class Exercise1 {
 
     public static void main(String[] args) {
         int[] randomNumbers = getRandomNumbers();
-        System.out.println("Mean number is: "+computeTheNumbersAndTheArithmeticalMean(randomNumbers));
+        System.out.println("Mean number is: " + computeTheNumbersAndTheArithmeticalMean(randomNumbers));
     }
 
 

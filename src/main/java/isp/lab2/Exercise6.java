@@ -2,11 +2,11 @@ package isp.lab2;
 
 public class Exercise6 {
 
-    public static int[] generateRandomVector(int n){
+    public static int[] generateRandomVector(int n) {
         throw new UnsupportedOperationException();
     }
 
-    public static int[] generateRandomVectorRecursively(int n){
+    public static int[] generateRandomVectorRecursively(int n) {
         throw new UnsupportedOperationException();
     }
 
