@@ -1,9 +1,17 @@
 # Starting from the template, implement the following exercises:
 
-1) Write a program that ask you to read a random number of numbers(between 2 and 10) from keyboard. Then display the arithmetic mean of the numbers
+1) Write a program that ask you to read a random number of numbers(between 2 and 10) from keyboard. Then display the arithmetic mean of the numbers. 
+The random generated numbers should be between 1 and 1000. 
 
 2) Given the Liga 1 ranking. Write a program which ask the user to enter a number of points. If the number match the exact number of points of a team then display the team name.
-If the user do not enter an exact number of points the show this message:"No team from Liga 1 have $numberOfPointsEnteredByUser$ points"
+If the user do not enter an exact number of points then show this message:"No team from Liga 1 have ${numberOfPointsEnteredByUser} points".
+<br>The ranking to consider is:<br>
+1 CFR Cluj 49 points<br>
+2 Universitatea Craiova 46 points<br>
+3 FCSB 43 points<br>
+4 FC Botosani 42 points<br>
+5 Gaz Metan 40 points<br>
+6 Astra Giurgiu 39 points<br>
 
 3) Write a program which display the geometric mean of the primes number from [a,b] where a,b->[1,200] a<b, a and b are read from keyboard.
 Also display the number of prime numbers which have the sum of digits an even number.
