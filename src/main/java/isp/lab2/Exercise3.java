@@ -1,17 +1,15 @@
 package isp.lab2;
 
-import java.util.List;
-
 public class Exercise3 {
-    public static List<Integer> getPrimeNumbersFromInterval(int a, int b) {
+    public static int[] getPrimeNumbersFromInterval(int a, int b) {
         throw new UnsupportedOperationException();
     }
 
-    public static double calculateGeometricMean(List<Integer> primeNumbers) {
+    public static double calculateGeometricMean(int[] primeNumbers) {
         throw new UnsupportedOperationException();
     }
 
-    public static int numberOfPNWithEvenSumOfDigits(List<Integer> primeNumbers) {
+    public static int numberOfPNWithEvenSumOfDigits(int[] primeNumbers) {
         throw new UnsupportedOperationException();
     }
 
