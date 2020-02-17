@@ -23,9 +23,10 @@ Also display the number of prime numbers which have the sum of digits an even nu
 	sort the vector using bubbleSort/quickSort/mergeSort/anySortMethodButNotOneAlreadyImplemented
 	display the sorted vector
 
-6) Generate fibonacci vector/ some random vector which multiply the precedent 2 values from the vector
-	a) non-recursively
-	b) recursively
+6) Generate some random vector which multiply the precedent 2 values from the vector. Generate first n elements(n >= 8)
+<br> EX: 1, 2, 2, 4, 8, 32, 256, 8192, ...
+	<br>a) non-recursively 
+	<br>b) recursively
 
 7) Giving the the vector ucl[1,2,3,4,5,6,7,13] meaning the times a team wins the UCL trophy
 generate aRandom -> [0,7] ask user "How many teams win the UCL trophy ucl[aRandom] times"
