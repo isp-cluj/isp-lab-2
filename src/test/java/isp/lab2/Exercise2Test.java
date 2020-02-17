@@ -1,4 +1,4 @@
-package lab.template;
+package isp.lab2;
 
 import org.junit.Test;
 
