@@ -2,6 +2,13 @@ package isp.lab2;
 
 public class Exercise7 {
 
+    /**
+     * This method should generate a random number which
+     * represent the position in the given arrays,so
+     * the random should be between 0 and 7
+     *
+     * @return the generated random
+     */
     public static int generateARandom() {
         throw new UnsupportedOperationException();
     }

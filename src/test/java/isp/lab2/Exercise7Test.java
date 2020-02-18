@@ -9,6 +9,6 @@ public class Exercise7Test {
     @Test
     public void testGenerateARandom() {
         int aRandom = Exercise7.generateARandom();
-        assertTrue(aRandom >= 0 && aRandom <= 7);
+        assertTrue("The random generated number should be grater then or equal to 0 and less then or equal to 7", aRandom >= 0 && aRandom <= 7);
     }
 }

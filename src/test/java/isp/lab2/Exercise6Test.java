@@ -9,11 +9,11 @@ public class Exercise6Test {
 
     @Test
     public void TestRecursive() {
-        assertEquals(testVector, Exercise6.generateRandomVectorRecursively(8));
+        assertEquals("For 8 elements the generated recursively vector should be " + testVector, testVector, Exercise6.generateRandomVectorRecursively(8));
     }
 
     @Test
     public void TestNonRecursive() {
-        assertEquals(testVector, Exercise6.generateRandomVector(8));
+        assertEquals("For 8 elements the generated recursively vector should be " + testVector, testVector, Exercise6.generateVector(8));
     }
 }
