@@ -14,7 +14,7 @@ public class Exercise5Test {
         int[] randomNumbers = Exercise5.generateRandomNumbers();
         assertEquals("There should be 20 numbers in that array", 20, randomNumbers.length);
         for (int number : randomNumbers) {
-            assertTrue(number > -100 && number < 1000);
+            assertTrue("No generated number should be outside this interval ->[-1000, 1000]", number > -1000 && number < 1000);
         }
     }
 
@@ -23,7 +23,7 @@ public class Exercise5Test {
         int[] sortedNumber = Exercise5.getSortedNumbers(someRandomNumbers);
         assertEquals("There should be 20 numbers in this array", 20, sortedNumber.length);
         for (int i = 0; i <= sortedNumber.length - 1; i++) {
-            assertTrue(sortedNumber[i] <= sortedNumber[i + 1]);
+            assertTrue("The array should be sorted", sortedNumber[i] <= sortedNumber[i + 1]);
         }
     }
 }

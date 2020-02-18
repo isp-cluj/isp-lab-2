@@ -19,9 +19,9 @@ Also display the number of prime numbers which have the sum of digits an even nu
 4) Given an vector of N integer elements. Display the first prime/odd/even number from the vector and their respective position
 
 5) Generate a vector of size 20 with random elements from [-1000,1000].
-	display the vector.
-	sort the vector using bubbleSort/quickSort/mergeSort/anySortMethodButNotOneAlreadyImplemented
-	display the sorted vector
+	<br>-display the vector.
+	<br>-sort the vector using bubbleSort or quickSort or mergeSort or any sort method
+	<br>-display the sorted vector
 
 6) Generate a vector which multiply the precedent 2 values from the vector. First 2 elements of the vector are always 1 and 2. Generate first n elements(n >= 8)
 <br> EX: 1, 2, 2, 4, 8, 32, 256, 8192, ...
