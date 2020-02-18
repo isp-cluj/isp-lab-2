@@ -9,7 +9,7 @@ public class Exercise1Test {
     @Test
     public void computeTheNumbersAndTheArithmeticalMean() {
         int[] inputVector = new int[]{3, 4, 5};
-        assertEquals(4, Exercise1.computeTheNumbersAndTheArithmeticalMean(inputVector));
+        assertEquals("The arithmetical mean of the numbers 3, 4, 5 should be 4", 4, Exercise1.computeTheArithmeticalMean(inputVector));
     }
 
 }
