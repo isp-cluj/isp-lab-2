@@ -2,11 +2,17 @@ package isp.lab2;
 
 import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
 
 public class Exercise4Test {
 
     int[] someNumbers = new int[]{15, 18, 13, 22, 21, 11, 57, 141, 563, 16};
+
+    @Test
+    public void testIsPrimeNumber() {
+        assertTrue(Exercise4.isPrimeNumber(17));
+        assertFalse(Exercise4.isPrimeNumber(20));
+    }
 
     @Test
     public void testFirstOdd() {

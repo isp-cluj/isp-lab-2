@@ -2,6 +2,10 @@ package isp.lab2;
 
 public class Exercise4 {
 
+    public static boolean isPrimeNumber(final int number) {
+        throw new UnsupportedOperationException();
+    }
+
     public static int firstOdd(int[] someNumbers) {
         throw new UnsupportedOperationException();
     }
@@ -11,6 +15,7 @@ public class Exercise4 {
     }
 
     public static int firstPrime(int[] someNumbers) {
+        // TODO: Use isPrimeNumber(final int number)
         throw new UnsupportedOperationException();
     }
 
