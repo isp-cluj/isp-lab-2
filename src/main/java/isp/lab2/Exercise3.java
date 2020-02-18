@@ -1,7 +1,13 @@
 package isp.lab2;
 
 public class Exercise3 {
+
+    public static boolean isPrimeNumber(final int number) {
+        throw new UnsupportedOperationException();
+    }
+
     public static int[] getPrimeNumbersFromInterval(int a, int b) {
+    // TODO: Use isPrimeNumber(final int number)
         throw new UnsupportedOperationException();
     }
 

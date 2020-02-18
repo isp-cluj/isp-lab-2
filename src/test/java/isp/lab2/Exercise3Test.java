@@ -3,7 +3,7 @@ package isp.lab2;
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
 
 public class Exercise3Test {
     int[] primeNumbers = new int[15];
@@ -14,6 +14,12 @@ public class Exercise3Test {
         for (int i = 0; i < myPN.length; i++) {
             primeNumbers[i] = myPN.length;
         }
+    }
+
+    @Test
+    public void testIsPrimeNumber() {
+        assertTrue(Exercise3.isPrimeNumber(17));
+        assertFalse(Exercise3.isPrimeNumber(20));
     }
 
     @Test
