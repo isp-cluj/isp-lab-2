@@ -23,6 +23,12 @@ public class Exercise3Test {
     }
 
     @Test
+    public void testCalculateSumOfDigits() {
+        assertEquals(8, Exercise3.calculateSumOfDigits(17));
+        assertEquals(2, Exercise3.calculateSumOfDigits(20));
+    }
+
+    @Test
     public void testPrimeNumbers() {
         int[] primeNumbers = Exercise3.getPrimeNumbersFromInterval(0, 50);
         assertEquals(15, primeNumbers.length);

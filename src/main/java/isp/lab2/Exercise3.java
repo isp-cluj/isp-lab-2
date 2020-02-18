@@ -6,8 +6,12 @@ public class Exercise3 {
         throw new UnsupportedOperationException();
     }
 
+    public static int calculateSumOfDigits(final int number) {
+        throw new UnsupportedOperationException();
+    }
+
     public static int[] getPrimeNumbersFromInterval(int a, int b) {
-    // TODO: Use isPrimeNumber(final int number)
+        // TODO: Use isPrimeNumber(final int number)
         throw new UnsupportedOperationException();
     }
 
@@ -16,6 +20,7 @@ public class Exercise3 {
     }
 
     public static int numberOfPNWithEvenSumOfDigits(int[] primeNumbers) {
+        // TODO: Use calculateSumOfDigits(final int number)
         throw new UnsupportedOperationException();
     }
 
