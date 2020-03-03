@@ -19,7 +19,7 @@ public class Exercise1 {
      * @param userNumbers the numbers used to calculate the arithmetical mean
      * @return the arithmetical mean of the given numbers
      */
-    protected static int computeTheArithmeticalMean(int[] userNumbers) {
+    protected static double computeTheArithmeticalMean(int[] userNumbers) {
         throw new UnsupportedOperationException();
     }
 
