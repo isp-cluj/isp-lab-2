@@ -1,7 +1,9 @@
 # Starting from the template, implement the following exercises:
 
-1) Write a program that ask you to read a random number of numbers(between 2 and 10) from keyboard. Then display the arithmetic mean of the numbers. 
-The random generated numbers should be between 1 and 1000. 
+1) Implement a program according to speciffications bellow:
+- Generate a random number n between 2 and 10;
+- Populate an array of size n with integers read from the keyboard;
+- Compute the arithmetical mean of the array populated in previous step. 
 
 2) Given the Liga 1 ranking. Write a program which ask the user to enter a number of points. If the number match the exact number of points of a team then display the team name.
 If the user do not enter an exact number of points then show this message:"No team from Liga 1 have ${numberOfPointsEnteredByUser} points".
