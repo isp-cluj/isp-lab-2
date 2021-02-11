@@ -30,7 +30,4 @@ Also display the number of prime numbers which have the sum of digits an even nu
 	<br>a) non-recursively 
 	<br>b) recursively
 
-7) Giving the vector ucl[1,2,3,4,5,6,7,13] meaning the times a team wins the UCL trophy.
-Generate aRandom -> [0,7] ask user "How many teams win the UCL trophy ucl[aRandom] times"
-(the matching values are [10,4,2,1,2,1,1,1] according to https://en.wikipedia.org/wiki/List_of_European_Cup_and_UEFA_Champions_League_finals).
-If user give a number bigger than the correct answer or smaller show an appropriate message. Give the user the chance to enter the number 2 times.   
+7) Write a guessing game where the user has to guess a secret number. After every guess the program tells the user whether their number was too large or too small. At the end the number of tries needed should be printed. It counts only as one try if they input the same number multiple times consecutively. 
