@@ -5,15 +5,11 @@
 - Populate an array of size n with integers read from the keyboard;
 - Compute the arithmetical mean of the array populated in previous step. 
 
-2) Given the Liga 1 ranking. Write a program which ask the user to enter a number of points. If the number match the exact number of points of a team then display the team name.
-If the user do not enter an exact number of points then show this message:"No team from Liga 1 have ${numberOfPointsEnteredByUser} points".
-<br>The ranking to consider is:<br>
-1 CFR Cluj 49 points<br>
-2 Universitatea Craiova 46 points<br>
-3 FCSB 43 points<br>
-4 FC Botosani 42 points<br>
-5 Gaz Metan 40 points<br>
-6 Astra Giurgiu 39 points<br>
+2) Implement an application that allows the users to search and find all the words that start with a specific letter in an array.
+First, the user is asked to input all the words, on one line, separated by comma (e.g. apples,computer,bread,tea,car).
+Next, the user is asked to input the starting letter.
+The result(s) are to be printed on a new line.
+Hint: use the String's split() method to extract the words from the first input line. Then, store them into an array.
 
 3) Write a program which display the geometric mean of the primes number from [a,b] where a,b->[1,200] a<b, a and b are read from keyboard.
 Also display the number of prime numbers which have the sum of digits an even number.
