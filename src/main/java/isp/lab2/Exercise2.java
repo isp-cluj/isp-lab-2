@@ -1,58 +1,53 @@
 package isp.lab2;
 
+import java.util.Scanner;
+
 /**
  * Check readme.md file for the exercise requirements.
  *
  * @author Radu Miron
  */
 public class Exercise2 {
-
     /**
-     * Validates that the input contains only letters and commas.
-     *
-     * @param enumeration The input string.
-     * @return The input if it's valid, null otherwise.
-     */
-    public static String validateEnumeration(String enumeration) {
-        throw new UnsupportedOperationException("Not implemented yet!");
-    }
-
-    /**
-     * Reads and validates an enumeration of words separated by comma.
+     * Reads an enumeration of words separated by comma.
      *
      * @return The console input enumeration if it's valid, null otherwise.
      */
-    public static String readAndValidateEnumeration() {
-//        System.out.println("Please input an enumeration of words separated by comma:");
-//        String enumeration = ...; // read the enumeration
-//        return validateEnumeration(enumeration);
-        throw new UnsupportedOperationException("Not implemented yet!");
+    public static String readEnumeration() {
+        System.out.println("Please input an enumeration of words separated by comma:");
+
+        Scanner scanner = new Scanner(System.in);
+        String enumeration = scanner.nextLine();
+
+        if (enumeration.trim().length() > 0) {
+            return enumeration;
+        } else {
+            return null;
+        }
     }
 
     /**
-     * Validates that the input character is a letter.
-     *
-     * @param startingLetter The input character.
-     * @return The given character if it's valid, null otherwise.
-     */
-    public static Character validateStartingLetter(Character startingLetter) {
-        throw new UnsupportedOperationException("Not implemented yet!");
-    }
-
-    /**
-     * Reads and validates the searched words starting letter.
+     * Reads the searched words starting letter.
      *
      * @return The starting character if it's a valid letter, null otherwise.
      */
-    public static Character readAndValidateStartingLetter() {
-//        System.out.println("Please input the starting letter of the words you want to search:");
-//        Character c = ...; // read the starting letter
-//        return validateStartingLetter(c);
-        throw new UnsupportedOperationException("Not implemented yet!");
+    public static Character readStartingLetter() {
+        System.out.println("Please input the starting letter of the words you want to search:");
+
+        Scanner scanner = new Scanner(System.in);
+        String line = scanner.nextLine();
+
+        if (line.length() > 0) {
+            return line.charAt(0);
+        } else {
+            return null;
+        }
     }
 
     /**
      * Splits a given {@link String} by comma.
+     * TODO: Use {@link String#split(String splitBy)} to split the enumeration;
+     * TODO: If you plan on using also whitespace characters in your enumeration (eg. " apple , cat, mouse"), use {@link String#trim()} for each word.
      *
      * @param inputEnumeration The words' enumeration.
      * @return An array of words.
@@ -73,8 +68,8 @@ public class Exercise2 {
     }
 
     public static void main(String[] args) {
-        String enumeration = readAndValidateEnumeration();
-        Character startingLetter = readAndValidateStartingLetter();
+        String enumeration = readEnumeration();
+        Character startingLetter = readStartingLetter();
 
         if (enumeration != null && startingLetter != null) {
             String[] words = splitEnumerationIntoWords(enumeration);

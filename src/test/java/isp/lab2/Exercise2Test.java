@@ -9,39 +9,6 @@ import org.junit.Test;
  * @author Radu Miron
  */
 public class Exercise2Test {
-
-    @Test
-    public void testValidateEnumeration() {
-        //TEST 1: valid input
-        String input1 = "apple,cat,computer,tea";
-        String enumeration1 = Exercise2.validateEnumeration(input1);
-        Assert.assertNotNull(input1 + " is a valid input", enumeration1);
-
-
-        // TEST 2: invalid input
-        String input2 = "apple, cat, computer, tea";
-        String enumeration2 = Exercise2.validateEnumeration(input2);
-        Assert.assertNull(input2 + " is an invalid input", enumeration2);
-
-
-        // TEST 3: invalid input
-        String input3 = "apple,cat,123,tea";
-        String enumeration3 = Exercise2.validateEnumeration(input3);
-        Assert.assertNull(input3 + " is an invalid input", enumeration3);
-    }
-
-    @Test
-    public void testValidateStartingLetter() {
-        // TEST 1: valid input
-        Character letter1 = Exercise2.validateStartingLetter('a');
-        Assert.assertNotNull("'a' is a valid input", letter1);
-        Assert.assertEquals(letter1, Character.valueOf('a'));
-
-        // TEST 2: invalid input
-        Character letter2 = Exercise2.validateStartingLetter('1');
-        Assert.assertNull("'1' is an invalid input", letter2);
-    }
-
     @Test
     public void testSplitEnumerationIntoWords() {
         // TEST 1
