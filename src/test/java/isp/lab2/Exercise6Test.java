@@ -1,5 +1,6 @@
 package isp.lab2;
 
+import static org.junit.Assert.assertArrayEquals;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -9,11 +10,11 @@ public class Exercise6Test {
 
     @Test
     public void TestRecursive() {
-        assertEquals("For 8 elements the generated recursively vector should be " + testVector, testVector, Exercise6.generateRandomVectorRecursively(8));
+        assertArrayEquals("For 8 elements the generated recursively vector should be " + testVector, testVector, Exercise6.generateRandomVectorRecursively(8));
     }
 
     @Test
     public void TestNonRecursive() {
-        assertEquals("For 8 elements the generated recursively vector should be " + testVector, testVector, Exercise6.generateVector(8));
+        assertArrayEquals("For 8 elements the generated recursively vector should be " + testVector, testVector, Exercise6.generateVector(8));
     }
 }

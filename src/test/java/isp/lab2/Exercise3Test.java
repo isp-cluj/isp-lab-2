@@ -12,7 +12,7 @@ public class Exercise3Test {
     @Before
     public void prepareTests() {
         for (int i = 0; i < myPN.length; i++) {
-            primeNumbers[i] = myPN.length;
+            primeNumbers[i] = myPN[i];
         }
     }
 

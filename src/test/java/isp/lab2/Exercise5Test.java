@@ -7,7 +7,7 @@ import static org.junit.Assert.assertTrue;
 
 public class Exercise5Test {
 
-    int[] someRandomNumbers = new int[]{2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47};
+    int[] someRandomNumbers = new int[]{90, 3, 5, 11, 7, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 51, 78, 90, 91, 99};
 
     @Test
     public void testNumberGenerator() {
