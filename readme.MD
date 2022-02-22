@@ -11,8 +11,9 @@ Next, the user is asked to input the starting letter.
 The result(s) are to be printed on a new line.
 Hint: use the String's split() method to extract the words from the first input line. Then, store them into an array.
 
-3) Write a program which display the geometric mean of the primes number from [a,b] where a,b->[1,200] a<b, a and b are read from keyboard.
-Also display the number of prime numbers which have the sum of digits an even number.
+3) 
+- Write a program which display the geometric mean of the primes number from [a,b] where a,b->[1,200] a<b, a and b are read from keyboard.
+- Giving a vector of first N prime numbers, display the number of prime numbers which have the sum of digits an even number.
 
 4) Given an vector of N integer elements. Display the first prime/odd/even number from the vector and their respective position
 
